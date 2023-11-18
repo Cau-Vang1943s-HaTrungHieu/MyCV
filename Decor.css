@@ -1,0 +1,66 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+/****************Title****************/
+h1 {
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration-style: double;
+    text-decoration-line: underline;
+    text-align: center;
+}
+p.smoltitle {
+    font-size: large;
+    font-weight: bold;
+    color:navy;
+}
+/****************Container****************/
+div.mycontainer {
+    width: 100%;
+    overflow: auto;
+}
+div.mycontainer div {
+    width: 50%;
+    float: left;
+}
+/**************Personal Data******************/
+#Personal {
+    width: 400px;
+    border: none;
+}
+#Personal tr td:first-child {
+    font-weight: bold;
+}
+/**************Education******************/
+#Educate tr td:first-child {
+    font-weight: bold;
+}
+/***************Photo*****************/
+#Portrait {
+    width: 130px;
+    padding: 5px;
+    margin: 0px 10px 0px;
+}
+div #Portrait {
+    float: left;
+    background-color: darkblue;
+    border-style: double;
+    border-color: gray;
+}
+/****************Clickable****************/
+.Button:hover {
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+    color: red;
+}
+/****************Others****************/
+#PronCons {
+    width: 70%;
+    display: none;
+    border-style: double;
+}
+#PronCons td,th {
+    border: 1px solid;
+}
